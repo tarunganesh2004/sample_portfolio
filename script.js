@@ -51,7 +51,12 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Full Stack Developer", "Software Developer", "Python Developer"],
+    strings: [
+      "Full Stack Developer",
+      "Software Developer",
+      "Python Developer",
+      "Data Analyst",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
